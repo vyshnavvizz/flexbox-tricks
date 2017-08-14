@@ -1,0 +1,54 @@
+body
+{
+font-family:sans-serif;
+margin:0;
+background: linear-gradient(to right, #1c92d2, #f2fcfe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+body:hover
+{
+font-family:sans-serif;
+margin:0;
+background: linear-gradient(to right, #2193b0, #6dd5ed); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg
+{
+height:100%;
+width:100%;
+}
+.form  > *
+{
+border:0;
+padding:10px;
+background:#fff;
+line-height:50px;
+font-size:30px;
+}
+.form  input[type="submit"]
+{
+background:blue;
+border:2px solid white;
+color:black;
+}
+.bg
+{
+display:flex;
+justify-content:center;
+align-items:center;
+float:center;
+margin-top:260px;
+}
+.form  input[type="submit"]:hover
+{
+background: linear-gradient(to right, #000000, #e5008d, #ff070b);
+border:2px solid red;
+color:cyan;
+}
+.form  input[type="text"]:hover
+{
+background: linear-gradient(to right, #d9a7c7, #fffcdc);
+border:2px solid;
+color:black;
+}
